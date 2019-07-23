@@ -1,0 +1,31 @@
+.festival {
+    width: 1440px;
+    min-width: 1440px;
+    margin: 0 auto;
+    min-height: 4840px;
+}
+.festival__wrapper {
+    position: fixed;
+}
+.festival__header {
+    position: relative;
+    min-height: 793px;
+    background: url("https://images.wbstatic.net/marketing/promo/promo__summer-festival/header-bg.jpg") no-repeat center 0;
+}
+.festival-header__img {
+    position: absolute;
+}
+.festival-header__img--1 {
+    top: 265px;
+    left: -590px;
+}
+.festival-header__img--2 {
+    top: 375px;
+    left: 1450px;
+}
+.festival-block1__wrapper {
+    display: flex;
+}
+.festival-block1__img {
+    display: block;
+}
