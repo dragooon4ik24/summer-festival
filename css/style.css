@@ -2,10 +2,11 @@
     width: 1440px;
     min-width: 1440px;
     margin: 0 auto;
-    min-height: 4840px;
+    min-height: 5194px;
 }
 .festival__wrapper {
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
 .festival__header {
     position: relative;
