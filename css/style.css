@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic');
 .festival {
     width: 1440px;
     min-width: 1440px;
     margin: 0 auto;
-    min-height: 5194px;
+    min-height: 18956px;
+
+    font-family: 'Open Sans', sans-serif;
 }
 .festival__wrapper {
     position: sticky;
     top: 0;
+    overflow: hidden;
 }
 .festival__header {
     position: relative;
@@ -24,9 +28,75 @@
     top: 375px;
     left: 1450px;
 }
-.festival-block1__wrapper {
+.festival-block__wrapper {
     display: flex;
 }
-.festival-block1__img {
+.festival-block__img {
+    position: relative;
     display: block;
+    z-index: 10;
+}
+.festival-block__img--moved {
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+.festival-tape {
+    position: relative;
+    overflow: hidden;
+    min-height: 699px;
+    padding-top: 109px;
+
+    background: url("https://images.wbstatic.net/marketing/promo/promo__summer-festival/tape-bg.jpg") no-repeat 0 0;
+}
+.festival-tape__wrapper {
+    position: absolute;
+    left: 0;
+    width: 9999px;
+    min-height: 490px;
+}
+.festival-tape__wrapper--1 {
+    background: url("https://images.wbstatic.net/marketing/promo/promo__summer-festival/shorts-3.jpg") repeat 0 0;
+}
+.festival-tape__wrapper--2 {
+    background: url("https://images.wbstatic.net/marketing/promo/promo__summer-festival/skirt-2.jpg") repeat 0 0;
+}
+.festival-block__title {
+    display: block;
+    margin: 25px 0;
+    padding: 0;
+
+    font-size: 40px;
+    line-height: 78px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+.festival-block__title:hover {
+    opacity: .7;
+}
+.festival-block__numbers {
+    margin: 20px 0 48px 0;
+
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: .05em;
+    color: #000000;
+}
+.festival-block__main-image {
+    display: block;
+    margin: 0 auto;
+    width: 1240px;
+    height: 1746px;
+}
+.festival-block__link {
+    color: #000000;
+    text-decoration: none;
+}
+.festival-block__link:hover {
+    opacity: .7;
 }
